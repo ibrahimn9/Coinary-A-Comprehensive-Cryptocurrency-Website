@@ -10,7 +10,7 @@ export const getCoinById = async (id) => {
       timePeriod: "24h",
     },
     headers: {
-      "X-RapidAPI-Key": "bca5e9e8c1msh640812af376c7e5p141115jsn9db9b5d94550",
+      "X-RapidAPI-Key": process.env.API_KEY,
       "X-RapidAPI-Host": "coinranking1.p.rapidapi.com",
     },
   };
